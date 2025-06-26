@@ -1,0 +1,55 @@
+.booklist-container {
+  padding: 20px;
+}
+
+.book-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.book-author,
+.book-price {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.book-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.book-actions a,
+.book-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.book-actions a {
+  background-color: #007bff;
+  color: white;
+}
+
+.book-actions button {
+  background-color: #dc3545;
+  color: white;
+}
